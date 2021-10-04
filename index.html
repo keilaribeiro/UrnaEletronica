@@ -5,14 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/etapas.js"></script>
-    <script src="js/script.js"></script>
-
+    
     <title>Urna Eletrônica</title>
 </head>
 <body>
     <div class="urna">
-
+        
         <div class="tela">
             <div class="d1">
                 <div class="d1-left">
@@ -23,10 +21,10 @@
                         <div class="numero pisca"></div>
                         <div class="numero"></div>
                     </div>
-                   
+                    
                     <div class="d-1-4"><span>Nome: FULANO DE TAL <br>
-                    Partido: PPP<br>
-                    Vice Prefeito: BELTRANO DE TAL
+                        Partido: PPP<br>
+                        Vice Prefeito: BELTRANO DE TAL
                     </span></div>
                 </div>
                 
@@ -39,14 +37,14 @@
                     </div>
                 </div>
             </div>
-           
+            
             <div class="d2">
                 Aperte a tecla:<br/>
                 VERDE para CONFIRMAR  este voto.<br/>
                 LARANJA para REINICIAR este voto.
             </div>
         </div>
-
+        
         <div class="teclado">
             <div class="teclado-linha">
                 <div class="teclado-botao" onclick="clicou('1')">1</div>
@@ -70,8 +68,10 @@
                 <div class="teclado-botao btn-branco" onclick="clicou('branco')">BRANCO</div>
                 <div class="teclado-botao btn-corrige" onclick="clicou('corrige')">CORRIGE</div>
                 <div class="teclado-botao btn-confirma" onclick="clicou('confirma')">CONFIRMA</div>
+            </div>
         </div>
-    </div>
-    
-</body>
-</html>
+        
+        <script src="js/etapas.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+    </html>
