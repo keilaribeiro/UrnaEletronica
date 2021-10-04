@@ -9,7 +9,7 @@ let etapaAtual = 0;
 let numero = '';
 
 function comecarEtapa() {
-    let etapas = etapas[etapaAtual];
+    let etapa = etapas[etapaAtual];
     
     let numeroHtml = '';
     for (let i=0;i<etapa.numero;i++){
@@ -38,9 +38,7 @@ function clicou(n) {
 function branco () {
     ("Clicou em")
 }
-function clicou() {
-    ("Clicou em")
-}
+
 function corrige() {
     ("Clicou em")
 }
