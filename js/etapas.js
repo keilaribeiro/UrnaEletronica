@@ -4,19 +4,19 @@ let etapas=[
         numeros: 5,
         candidatos: [
             {
-                numero: 38154,
-                nome: 'octoawd',
+                numero:'45601',
+                nome: 'Napoleon Octo ',
                 partido: 'ABC',
                 fotos:[
-                    {url:'38154.png', legenda:'Vereador'}
+                    {url:'imagem/napoleon.png', legenda:'Vereador'}
                 ]
             },
             {
-                numero:792624,
-                nome: 'catfwg',
-                partido: 'DXB',
+                numero:'12378',
+                nome: 'Home Cat',
+                partido: 'DEFG',
                 fotos:[
-                    {url:'792624.png', legenda:'Vereador'}
+                    {url:'imagem/cathome.png', legenda:'Vereador'}
                 ]
 
             },
@@ -24,26 +24,26 @@ let etapas=[
     },
     {
         titulo: 'PREFEITO',
-        numero: 2,
+        numeros: 2,
         candidatos: [
             {
-                numero: 51,
-                nome: 'hjfjhf',
+                numero: '51',
+                nome: 'Octa Programadora',
                 partido: 'KHL',
-                vice: 'cnmc',
+                vice: 'Octo México',
                 fotos: [
-                    {url:'octaprefeita.png', legenda:'prefeito'},
-                    {url:'octovice.png', legenda: 'vice-prefeito', small:true}
+                    {url:'imagem/octadev.png', legenda:'prefeito'},
+                    {url:'imagem/octomexico.png', legenda: 'vice-prefeito', small:true}
                 ]
             },
             {
-                numero: 78,
-                nome: 'sbs',
-                partido: 'DNAE',
-                vice: 'djtg',
+                numero: '78',
+                nome: 'Style Cat',
+                partido: 'MRVL',
+                vice: 'Spider Cat',
                 fotos: [
-                    {url:'hdd.png', legenda:'prefeito'},
-                    {url:'hsr.png', legenda: 'vice-prefeito', small:true}
+                    {url:'imagem/catstyle.png', legenda:'prefeito'},
+                    {url:'imagem/spidercat.png', legenda: 'vice-prefeito', small:true}
                 ]
             },
         ]
